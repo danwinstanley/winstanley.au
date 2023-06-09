@@ -1,6 +1,10 @@
 name: Build and Deploy to AWS
 run-name: ${{ github.actor }} is deploying to AWS
 
+permissions:
+  id-token: write
+  contents: read
+
 on:
   push:
     branches:
