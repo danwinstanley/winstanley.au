@@ -1,0 +1,5 @@
+.venv
+.env
+cdk.out
+TODO.md
+*.lock

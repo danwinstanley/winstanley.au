@@ -1,0 +1,80 @@
+baseURL = "https://winstanley.au"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "Dan Winstanley | Cloud Automation Specialist"
+theme = "gokarna"
+
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+  # [[menu.main]]
+  #   name = "Posts"
+  #   pre = "<span data-feather='book'></span>"
+  #   url = "/posts/"
+  #   weight = 2
+
+  [[menu.main]]
+    name = "Resume"
+    pre = "<span data-feather='book'></span>"
+    url = "/resume/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/danwinstanley"
+    weight = 5
+
+[params]
+  # URL for the avatar on homepage
+  author = "Dan Winstanley"
+  iconURL = "/icon.png"
+  avatarURL = "/avatar.jpg"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = "size-m"
+
+  # Description to display on homepage
+
+  bulletPoints = [
+    {content = "☁️ Cloud Automation Specialist"},
+    {content = "🐧 Site Reliability Engineer"},
+    {content = "🐍 Python Developer"}
+  ]
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#A96ACB"
+
+  # You can use this to inject any HTML in the <head> tag.
+  # Ideal usecase for this is to import custom js/css or add your analytics snippet
+  customHeadHTML = ""
+
+  socialIcons = [
+    {name = "github", url = "https://github.com/danwinstanley"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/danwinstanley/"},
+    {name = "email", url = "mailto:dan@winstanley.au"}
+  ]
+
+  # Keywords relevant for SEO
+  metaKeywords = ["winstanley", "cloud", "aws", "automation", "consultant", "consulting", "freelancer", "python", "linux", "developer", "devops", "devsecops", "security", "technical", "lead", "principal", "engineer"]
+
+  # If you want to display posts on the homepage, the options are
+  # "popular" (order posts by weight), "recent" (order posts by date)
+  # or "" (do not display, default option)
+  # showPostsOnHomePage = ""
+
+  # Header/Footer text
+  header = "winstanley.au"
+  footer = "winstanley.au"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false

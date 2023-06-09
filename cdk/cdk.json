@@ -1,0 +1,26 @@
+{
+  "app": "python3 app.py",
+  "context": {
+    "stacks": {
+      "winstanley-au-prod": {
+        "apex_bucket_name": "winstanley.au",
+        "www_bucket_name": "www.winstanley.au",
+        "hosted_zone_name": "winstanley.au",
+        "hosted_zone_id_parameter": "/route53/winstanley-au-hosted-zone-id",
+        "cert_arn_parameter": "/acm/winstanley-au-cert-arn",
+        "cloudfront_domain_names": [
+          "winstanley.au",
+          "www.winstanley.au"
+        ],
+        "website_content_directory": "../hugo/public"
+      },
+      "winstanley-au-prod-usa": {
+        "hosted_zone_id_parameter": "/route53/winstanley-au-hosted-zone-id",
+        "cert_domain_name": "*.winstanley.au",
+        "cert_alternative_names": [
+          "winstanley.au"
+        ]
+      }
+    }
+  }
+}
