@@ -3,3 +3,4 @@
 cdk.out
 TODO.md
 *.lock
+hugo/public/*
