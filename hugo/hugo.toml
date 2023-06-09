@@ -62,7 +62,7 @@ enableRobotsTXT = true
   ]
 
   # Keywords relevant for SEO
-  metaKeywords = ["winstanley", "cloud", "aws", "automation", "consultant", "consulting", "freelancer", "python", "linux", "developer", "devops", "devsecops", "security", "technical", "lead", "principal", "engineer"]
+  metaKeywords = ["winstanley", "cloud", "aws", "automation", "consultant", "consulting", "freelancer", "python", "linux", "developer", "devops", "devsecops", "security", "technical", "lead", "principal", "engineer", "melbourne"]
 
   # If you want to display posts on the homepage, the options are
   # "popular" (order posts by weight), "recent" (order posts by date)
