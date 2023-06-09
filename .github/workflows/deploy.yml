@@ -49,6 +49,10 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
           aws-region: 'ap-southeast-2'
 
-      - name: cdk diff
+      - name: CDK diff
         run: cdk diff --all
+        working-directory: ./cdk
+
+      - name: CDK deploy
+        run: cdk deploy --all
         working-directory: ./cdk
